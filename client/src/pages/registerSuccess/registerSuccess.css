@@ -1,0 +1,180 @@
+.containerRegisterSuccess{
+    font-family: Montserrat;
+}
+
+@media screen and (max-width: 300px) {
+    .containerRegisterSuccess {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        
+    }
+    .itemsRegisterSuccess {
+        /* border: 1px solid black; */
+        width: auto;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 10px;
+    }
+    .btnRender {
+        /* border: 1px solid black; */
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .itemsRegisterSuccess h1 {
+        text-align: center;
+        font-size: 13px;
+    }
+    .itemImageRegisterSuccess {
+        /* border: 1px solid red; */
+        width: auto;
+        height: 50%;
+        background-image: url('../images/ciop.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .btnRenderRegisterSuccess {
+        background: none;
+        border: 1px solid #00ff00;
+        padding: 7px 20px;
+        font-size: 8px;
+        border-radius: 15px;
+    }
+    #btnHmeRenderRegisterSuccess {
+        background-color: #00ff00;
+        color: white;
+
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 768px){
+    .containerRegisterSuccess {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        
+    }
+    .itemsRegisterSuccess {
+        /* border: 1px solid black; */
+        width: auto;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 10px;
+    }
+    .btnRender {
+        /* border: 1px solid black; */
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .itemsRegisterSuccess h1 {
+        text-align: center;
+        font-size: 25px;
+    }
+    .itemImageRegisterSuccess {
+        /* border: 1px solid red; */
+        width: auto;
+        height: 50%;
+        background-image: url('../images/ciop.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .btnRenderRegisterSuccess {
+        background: none;
+        border: 1px solid #00ff00;
+        padding: 7px 20px;
+        font-size: 8px;
+        border-radius: 15px;
+    }
+    #btnHmeRenderRegisterSuccess {
+        background-color: #00ff00;
+        color: white;
+
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .containerRegisterSuccess {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        /* flex-direction: column; */
+        overflow-y: hidden;
+        overflow-x: hidden;
+        
+    }
+    .itemsRegisterSuccess {
+        /* border: 1px solid black; */
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 10px;
+    }
+    .btnRender {
+        /* border: 1px solid black; */
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        /* flex-direction: column; */
+        align-items: center;
+        gap: 10px;
+    }
+    .itemsRegisterSuccess h1 {
+        text-align: center;
+        /* font-size: 25px; */
+    }
+    .itemImageRegisterSuccess {
+        /* border: 1px solid red; */
+        width: 50%;
+        height: 100%;
+        background-image: url('../images/ciop.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .btnRenderRegisterSuccess {
+        background: none;
+        border: 1px solid #00ff00;
+        padding: 7px 20px;
+        font-size: 14px;
+        border-radius: 15px;
+        cursor: pointer;
+        font-family: Montserrat;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+
+    .btnRenderRegisterSuccess:hover{
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    #btnHmeRenderRegisterSuccess {
+        background-color: #00ff00;
+        color: white;
+
+    }
+}

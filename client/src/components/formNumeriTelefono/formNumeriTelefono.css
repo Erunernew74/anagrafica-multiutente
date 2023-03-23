@@ -1,0 +1,106 @@
+.containerFormNumeriTel {
+    /* margin-top: 50px; */
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    gap: 5px;
+    margin-bottom: 15px;
+
+}
+
+.containerFormNumeriTel input{
+    padding: 8px;
+}
+.containerFormNumeriTel select{
+    padding: 4px;
+}
+
+.containerFormNumeriTel input, select{
+    font-family: Montserrat;
+}
+
+@media screen and (max-width: 300px) {
+    .containerFormNumeriTel {
+        /* border: 1px solid red; */
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #selectTipologisNumero{
+        margin-top: 15px;
+        font-size: 10px;
+        width: 150px;
+    }
+    #inputNumeroTelefono{
+        font-size: 10px;
+        width: 150px;
+        padding: 3px;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 993px) {
+    .containerFormNumeriTel {
+            /* border: 1px solid red; */
+            width: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #selectTipologisNumero{
+            margin-top: 15px;
+            font-size: 10px;
+            width: 250px;
+        }
+        #inputNumeroTelefono{
+            font-size: 10px;
+            width: 250px;
+            padding: 3px;
+        }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    .containerFormNumeriTel {
+            /* border: 1px solid red; */
+            width: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #selectTipologisNumero{
+            margin-top: 15px;
+            font-size: 15px;
+            width: 350px;
+        }
+        #inputNumeroTelefono{
+            font-size: 15px;
+            width: 350px;
+            padding: 5px;
+        }
+        .btnDeleteField {
+            font-size: 50px;
+        }
+}
+@media screen and (min-width: 1200px) {
+    .containerFormNumeriTel {
+            /* border: 1px solid red; */
+            width: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #selectTipologisNumero{
+            margin-top: 15px;
+            font-size: 15px;
+            width: 350px;
+        }
+        #inputNumeroTelefono{
+            font-size: 15px;
+            width: 350px;
+            padding: 5px;
+        }
+        .btnDeleteField {
+            font-size: 50px;
+            cursor: pointer;
+        }
+}

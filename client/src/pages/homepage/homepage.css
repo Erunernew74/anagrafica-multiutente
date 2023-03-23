@@ -1,0 +1,202 @@
+@media screen and (max-width: 300px) {
+    .containerHomepage {
+        width: 100%;
+        height: 100vh;
+        font-family: Montserrat;
+        background-image: url('../images/tramonto.jpg');
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-blend-mode: overlay;
+        background-color: #676767;
+        overflow-x: hidden;
+        overflo-y: hidden;
+    }
+    .containerHomepage h1{
+        text-align: center;
+        font-size: 15px;
+        color: white;
+    }
+    .btnScelta {
+        width: 100%;
+        height: auto;
+        /* border: 1px solid white; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 0px;
+        padding: 10px;
+    }
+    .btnScelta button{
+        width: auto;
+        height: 20px;
+        font-size: 8px;
+    }
+    .btnLoginTo {
+        background: transparent;
+        border: 1px solid #06ff06;
+        border-radius: 15px;
+        padding: 5px 15px;
+        color: white;
+    }
+    .btnRegisterTo {
+        background-color: #06ff06;
+        border: 1px solid #ffffff;
+        border-radius: 15px;
+        padding: 5px 15px;
+        color: black;
+    }
+    .btnScelta p{
+        color: white;
+        font-size: 10px;
+    }
+    .itemsTitleHomePage p{
+        color: white;
+        text-align:center;
+        font-size: 8px;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 768px){
+    .containerHomepage {
+        width: 100%;
+        height: 100vh;
+        font-family: Montserrat;
+        background-image: url('../images/tramonto.jpg');
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-blend-mode: overlay;
+        background-color: #676767;
+        overflow-x: hidden;
+        overflo-y: hidden;
+    }
+    .containerHomepage h1{
+        text-align: center;
+        font-size: 25px;
+        color: white;
+    }
+    .btnScelta {
+        width: 100%;
+        height: auto;
+        /* border: 1px solid white; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding: 10px;
+    }
+    .btnScelta button{
+        width: 85px;
+        height: 35px;
+        font-size: 12px;
+    }
+    .btnLoginTo {
+        background: transparent;
+        border: 1px solid #06ff06;
+        border-radius: 15px;
+        padding: 5px 15px;
+        color: white;
+    }
+    .btnRegisterTo {
+        background-color: #06ff06;
+        border: 1px solid #ffffff;
+        border-radius: 15px;
+        padding: 5px 15px;
+        color: black;
+    }
+    .btnScelta p{
+        color: white;
+        font-size: 13px;
+    }
+    .itemsTitleHomePage p{
+        color: white;
+        text-align:center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .containerHomepage {
+        width: 100%;
+        height: 100vh;
+        font-family: Montserrat;
+        background-image: url('../images/tramonto.jpg');
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-blend-mode: overlay;
+        background-color: #676767;
+        overflow-x: hidden;
+        overflo-y: hidden;
+    }
+    .containerHomepage h1{
+        text-align: center;
+        font-size: 40px;
+        color: white;
+    }
+    .btnScelta {
+        width: 100%;
+        height: auto;
+        /* border: 1px solid white; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding: 10px;
+    }
+    .btnScelta button{
+        width: 125px;
+        height: 45px;
+        font-size: 16px;
+        cursor: pointer;
+        transition:0.3s;
+    }
+    .btnScelta button:hover{
+        transform: translateY(-5px)
+    }
+    .btnLoginTo {
+        background: transparent;
+        border: 2px solid #06ff06;
+        border-radius: 15px;
+        padding: 5px 15px;
+        color: white;
+        font-family: Montserrat;
+    }
+    .btnRegisterTo {
+        background-color: #06ff06;
+        border: 2px solid #ffffff;
+        border-radius: 15px;
+        padding: 5px 15px;
+        color: black;
+        font-family: Montserrat;
+    }
+    .btnScelta p{
+        color: white;
+        font-size: 13px;
+    }
+    .containerLoader {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+    }
+    .itemsTitleHomePage p{
+        color: white;
+        text-align:center;
+    }
+}

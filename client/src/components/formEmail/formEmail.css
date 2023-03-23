@@ -1,0 +1,110 @@
+.containerFormEmail {
+    /* margin-top: 50px; */
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    gap: 5px;
+    margin-bottom: 15px;
+
+}
+
+.containerFormEmail input{
+    padding: 8px;
+}
+.containerFormEmail select{
+    padding: 4px;
+}
+
+.containerFormEmail input, select{
+    font-family: Montserrat;
+}
+.inputEmail{
+    width: 350px;
+}
+
+@media screen and (max-width: 300px) {
+    .containerFormEmail {
+        /* border: 1px solid red; */
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+    }
+    .inputEmail{
+        /* margin-top: 15px; */
+        font-size: 10px;
+        width: 150px;
+        padding: 3px;
+    }
+}
+@media screen and (min-width: 300px) and (max-width: 993px) {
+    .containerFormEmail {
+        /* border: 1px solid red; */
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+    }
+    #selectEmail{
+        /* margin-top: 15px; */
+        font-size: 10px;
+        width: 250px;
+        padding: 5px;
+        /* margin-bottom: 25px; */
+    }
+    #inputEmail {
+        padding: 5px;
+        font-size: 10px;
+        width: 250px;
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    .containerFormEmail {
+        /* border: 1px solid red; */
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+    }
+    #selectEmail{
+        /* margin-top: 15px; */
+        font-size: 15px;
+        width: 350px;
+        padding: 5px;
+        /* margin-bottom: 25px; */
+    }
+    #inputEmail {
+        padding: 5px;
+        font-size: 15px;
+        width: 350px;
+        /* margin-bottom: 25px; */
+    }
+}
+@media screen and (min-width: 1200px){
+    .containerFormEmail {
+        /* border: 1px solid red; */
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+    }
+    #selectEmail{
+        /* margin-top: 15px; */
+        font-size: 13px;
+        width: 350px;
+        padding: 5px;
+        /* margin-bottom: 25px; */
+    }
+    #inputEmail {
+        padding: 5px;
+        font-size: 15px;
+        width: 350px;
+        /* margin-bottom: 25px; */
+    }
+}

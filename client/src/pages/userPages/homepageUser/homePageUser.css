@@ -1,0 +1,578 @@
+.containerHomepageUser {
+    font-family: Montserrat;
+}
+.black{
+    font-family: Montserrat;
+}
+.userItems input {
+    font-family: Montserrat;
+}
+.btnUpdateUser button {
+    font-family: Montserrat;
+    color: black;
+}
+
+@media screen and (max-width: 300px) {
+    .containerHomepageUser{
+        width: 100%;
+        height: 100vh;
+        overflow-x: hidden;
+        background-color: black;
+        color: white;
+    }
+    .itemsHomePageUser {
+        /* border: 1px solid black; */
+        padding: 0 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .itemsHomePageUser h1 {
+        text-align: center;
+        font-size: 15px;
+        margin: 20px 0;
+    }
+    .itemsUser {
+        width: 100%;
+        height: auto;
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .imageUpload {
+        margin-top: 20px;
+    }
+    .userItems {
+        display: flex;
+        flex-direction: column;
+    }
+    .userItems label, input {
+        font-size: 12px;
+    }
+    .userItems input{
+        padding: 3px;
+        font-size: 13px;
+        /* width: 250px; */
+    }
+    .containerImageUser {
+        /* border: 1px solid black; */
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+    .imageUser {
+        max-width: 70px;
+        max-height:70px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    .formUpdateUser {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        /* border: 1px solid black; */
+    }
+    .btnUpdateUser {
+        /* border: 1px solid black; */
+        display: flex;
+        justify-content: center;
+        padding: 10px 0;
+    }
+    .aggiornaProfilo {
+        width: 100px;
+        color: black;
+        font-size: 12px;
+    }
+    .itemsBtnAddNum {
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+    }
+    .itemsBtnAddEmail {
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+    }
+    .btnAddNumero {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        margin: auto;
+
+    }
+    .containerTableNumeri{
+        margin-bottom: 35px;
+    }
+    .containerTabs {
+        font-size: 9px !important;
+    }
+    .tableVisualizzaDati th{
+        font-size: 10px;
+    }
+    .tableVisualizzaDati td{
+        font-size: 7px;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 993px) {
+    .containerHomepageUser{
+        width: 100%;
+        height: 100vh;
+        overflow-x: hidden;
+        background-color: black;
+        color: white;
+    }
+    .itemsHomePageUser {
+        /* border: 1px solid black; */
+        padding: 0 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .itemsHomePageUser h1 {
+        text-align: center;
+        font-size: 15px;
+        margin: 20px 0;
+    }
+    .itemsUser {
+        width: 100%;
+        height: auto;
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .imageUpload {
+        margin-top: 20px;
+    }
+    .userItems {
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+    }
+    .userItems label, input {
+        font-size: 12px;
+    }
+    .userItems input{
+        padding: 3px;
+        font-size: 13px;
+        width: 250px;
+    }
+    .containerImageUser {
+        /* border: 1px solid black; */
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+    .imageUser {
+        max-width: 70px;
+        max-height:70px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    .formUpdateUser {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        /* border: 1px solid black; */
+    }
+    .btnUpdateUser {
+        /* border: 1px solid black; */
+        display: flex;
+        justify-content: center;
+        padding: 10px 0;
+    }
+    .aggiornaProfilo {
+        width: 100px;
+        color: black;
+        font-size: 12px;
+    }
+    .itemsBtnAddNum {
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+    }
+    .itemsBtnAddEmail {
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+    }
+    .btnAddNumero {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        margin: 20px auto;
+
+    }
+    .containerTableNumeri{
+        margin-bottom: 35px;
+    }
+    .containerTabs {
+        font-size: 12px !important;
+    }
+    .tableVisualizzaDati {
+        border: 1px solid white;
+    }
+    .tableVisualizzaDati th{
+        font-size: 15px;
+        border: 1px solid white;
+        padding: 3px;
+    }
+    .tableVisualizzaDati td{
+        font-size: 10px;
+        border: 1px solid white;
+        padding: 3px;
+    }
+    .navbarUtente{
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: center;
+        margin: 20px 0;
+        font-size: 13px;
+    }
+    .containerItemsTabs {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    .containerHomepageUser{
+        width: 100%;
+        height: 100vh;
+        overflow-x: hidden;
+        background-color: black;
+        color: white;
+    }
+    .itemsHomePageUser {
+        /* border: 1px solid black; */
+        padding: 0 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .itemsHomePageUser h1 {
+        text-align: center;
+        font-size: 15px;
+        margin: 20px 0;
+    }
+    .itemsUser {
+        width: 100%;
+        height: auto;
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .imageUpload {
+        margin-top: 20px;
+    }
+    .userItems {
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+    }
+    .userItems label, input {
+        font-size: 14px;
+    }
+    .userItems input{
+        padding: 5px;
+        font-size: 14px;
+        width: 350px;
+    }
+    .containerImageUser {
+        /* border: 1px solid black; */
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+    .imageUser {
+        max-width: 70px;
+        max-height:70px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    .formUpdateUser {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        /* border: 1px solid black; */
+    }
+    .btnUpdateUser {
+        /* border: 1px solid black; */
+        display: flex;
+        justify-content: center;
+        padding: 10px 0;
+    }
+    .aggiornaProfilo {
+        width: 100px;
+        color: black;
+        font-size: 12px;
+    }
+    .itemsBtnAddNum {
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+    }
+    .itemsBtnAddEmail {
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+    }
+    .btnAddNumero {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        margin: 20px auto;
+
+    }
+    .containerTableNumeri{
+        margin-bottom: 35px;
+    }
+    .containerTabs {
+        font-size: 15px !important;
+    }
+    .tableVisualizzaDati {
+        border: 1px solid white;
+    }
+    .tableVisualizzaDati th{
+        font-size: 18px;
+        border: 1px solid white;
+        padding: 3px;
+    }
+    .tableVisualizzaDati td{
+        font-size: 16px;
+        border: 1px solid white;
+        padding: 3px;
+    }
+    .navbarUtente{
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: center;
+        margin: 20px 0;
+        font-size: 13px;
+    }
+    .containerItemsTabs {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    .containerHomepageUser{
+        width: 100%;
+        height: 100vh;
+        overflow-x: hidden;
+        display: flex;
+        transition: 0.6s;
+        background-color: black;
+        color: white;
+    }
+    .black{
+        width: 100%;
+        height: 100vh;
+        background: black;
+        color: white;
+        overflow-x: hidden;
+        display: flex;
+        transition: 0.6s;
+    }
+
+    .itemsHomePageUser {
+        /* border: 1px solid black; */
+        width: 30vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .itemsHomePageUser h1 {
+        text-align: center;
+        font-size: 20px;
+        margin-top: 50px;
+    }
+    .itemsUser {
+        margin: auto;
+        width: 500px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        justify-content: center;
+        align-items: center;
+        /* position: relative; */
+    }
+    
+    .userItems {
+        display: flex;
+        flex-direction: column;
+    }
+    .userItems label, input {
+        /* font-size: 12px; */
+    }
+    .userItems input{
+        padding: 5px;
+        width: 270px;
+    }
+    .containerImageUser {
+        /* border: 1px solid black; */
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .imageUser {
+        width: 170px;
+        height:170px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    .iconAggiornaImage {
+        /* border: 1px solid black; */
+        display: flex;
+        justify-content: center;
+        padding: 10px 0;
+    }
+    .iconUpdateimage {
+        font-size: 35px;
+        background-color: green;
+        border-radius: 50%;
+        color: white;
+        cursor: pointer;
+    }
+    .formUpdateUser {
+        width: 65%;
+        display: flex;
+        margin: 0 auto;
+        padding: 20px;
+        border: 3px solid #ff00ff;
+        border-radius: 15px;
+    }
+    .containerNavbar {
+        width: 70vw;
+        border: 1px solid black;
+        margin-left: 200px;
+    }
+    .containerChange {
+        /* border: 1px solid black; */
+        display: flex;
+        justify-content: center;
+        padding: 15px 0;
+    }
+    .containerChange button{
+        cursor: pointer;
+        font-size: 20px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        padding: 0px;
+        object-fit: cover;
+        border: none;
+        background-color: #00ff00;
+    }
+    .btnUpdateUser button{
+        width: 250px;
+        height: 40px;
+        cursor: pointer;
+        background: red;
+        transition: 0.3s;
+        color: white;
+    }
+    .btnUpdateUser button:hover{
+        background: #ce0000;
+    }
+
+    .btnAddNumero {
+        margin: 30px 0;
+        font-size: 20px;
+        background: red;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: 0.4s;
+        color: white;
+    }
+    .btnAddNumero:hover{
+        background: #b00000;
+        color: white;
+    }
+    .itemsFormNumTel {
+        margin-bottom: 10px;
+        display: flex;
+        gap: 20px;
+    }
+
+    .containerTableNumeri {
+        width: 1440px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        /* border: 1px solid white; */
+        margin: 50px auto;
+    }
+    .containerTableNumeri table, th,tr, td{
+        border: 1px solid white !important;
+        border-collapse: collapse;
+        padding: 10px;
+    }
+    .thTable {
+        text-align: center;
+    }
+    .containerTableNumeri table {
+        width: 100%;
+        margin-bottom:50px;
+    }
+    .containerItemsTabs {
+        border: 1px solid white;
+        margin-bottom: 50px;
+        width: 800px;
+    }
+    .titleTab {
+        color: white !important;
+    }
+    .containerTabs {
+        color: white !important;
+        background: white !important;
+    }
+    #numeriTelefonoTab {
+        display: flex !important;
+        justify-content: center !important;
+        margin: auto 50%;
+    }
+    #tdDelete{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #iconDelete {
+        font-size: 25px;
+        border: 1px solid white;
+        border-radius: 50%;
+        padding: 5px;
+        background-color: red;
+        cursor: pointer;
+    }
+    
+    
+}

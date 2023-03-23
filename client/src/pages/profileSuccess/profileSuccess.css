@@ -1,0 +1,103 @@
+.containerProfileSuccess{
+    font-family: Montserrat;
+}
+
+@media screen and (max-width: 300px){
+    .containerProfileSuccess {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .containerItemsProfileSuccess {
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .containerItemsProfileSuccess p{
+        text-align: center;
+        font-size: 11px;
+    }
+    .containerImageProfileSuccess {
+        width: 100%;
+        height: 50vh;
+        background-image: url('../images/dark.PNG');
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 768px){
+    .containerProfileSuccess {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .containerItemsProfileSuccess {
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .containerItemsProfileSuccess p{
+        text-align: center;
+        /* font-size: 11px; */
+    }
+    .containerImageProfileSuccess {
+        width: 100%;
+        height: 50vh;
+        background-image: url('../images/dark.PNG');
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .containerProfileSuccess {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+    }
+    .containerItemsProfileSuccess {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .containerItemsProfileSuccess p{
+        text-align: center;
+        font-size: 25px;
+    }
+    .containerImageProfileSuccess {
+        width: 100%;
+        height: 100vh;
+        background-image: url('../images/dark.PNG');
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    .btnProfileSuccess {
+        width: 125px;
+        height: 55px;
+        background: transparent;
+        border: 2px solid red;
+        color: red;
+        cursor: pointer;
+        transition: 0.3s;
+        font-family: Montserrat;
+    }
+    .btnProfileSuccess:hover{
+        border: 2px solid green;
+        color: green;
+    }
+}

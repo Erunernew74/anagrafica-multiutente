@@ -1,0 +1,66 @@
+@media screen and (max-width: 300px) {
+    .itemsImageUpload{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .itemsImageUpload h3 {
+        text-align: center;
+        font-size: 13px;
+    }
+    .btnSelectImage {
+        font-size: 7px;
+        width: auto;
+    }
+    .imageRegister {
+        max-width: 50px;
+        max-height: 50px;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+    .itemsImageUpload{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .itemsImageUpload h3 {
+        text-align: center;
+        font-size: 13px;
+    }
+    .btnSelectImage {
+        font-size: 7px;
+        width: auto;
+    }
+    .imageRegister {
+        max-width: 50px;
+        max-height: 50px;
+        margin-bottom: 30px;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .itemsImageUpload{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .itemsImageUpload h3 {
+        text-align: center;
+        /* font-size: 13px; */
+    }
+    .btnSelectImage {
+        font-size: 17px;
+        width: auto;
+    }
+    .imageRegister {
+        max-width: 120px;
+        max-height: 120px;
+        margin-bottom: 30px;
+    }
+}
